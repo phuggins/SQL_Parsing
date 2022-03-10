@@ -25,15 +25,15 @@ from pyspark.sql import functions as F
 
 # COMMAND ----------
 
-# Enter source locations for scripts
-directory_bronze = 
-dir_bronze = 
+# Enter source locations for ddl's
+directory_bronze = '/dbfs/mnt/mountedpath/'
+dir_bronze = 'dbfs:/mnt/mountedpath/'
 
-directory_silver = 
-dir_silver = 
+directory_silver = '/dbfs/mnt/mountedpath/'
+dir_silver = 'dbfs:/mnt/mountedpath/'
 
-directory_gold = 
-dir_gold = 
+directory_gold = '/dbfs/mnt/mountedpath/'
+dir_gold = 'dbfs:/mnt/mountedpath/'
 
 # COMMAND ----------
 
