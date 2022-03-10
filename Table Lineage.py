@@ -530,10 +530,4 @@ except Exception as e:
 # create a new table
 dl_table_lineage.write.mode("overwrite").saveAsTable('default.dl_table_lineage')
 
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC ### Example
-
-# COMMAND ----------
 
