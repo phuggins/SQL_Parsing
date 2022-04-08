@@ -1,0 +1,16 @@
+---
+azure_storage_connectionstring: "connectionstring" # connection string -- KEEP SECRET --
+
+key: "key" # account key -- KEEP SECRET --
+
+account_name: "account name" # account name
+
+container: "container name" # container name
+
+target_subfolder: "folderpath" #subfolder where DDLs are stored in container
+
+local_path: "folderpath" # Location to download Blob storage contents
+
+bronze_path: "folderpath/Bronze" # Location to read the Bronze DDLs from
+silver_path: "folderpath/Silver" # Location to read the Silver DDLs from
+gold_path: "folderpath/Gold" # Location to read the Gold DDLs from
